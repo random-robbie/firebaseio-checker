@@ -41,7 +41,7 @@ def test_fb (URL,FILE):
 					text_file = open("./cfg/vun.txt", "a")
 					text_file.write(""+URLi+"\n")
 					text_file.close()
-					print (Fore.GREEN +"[*] *********** Firebase Vulnerable... Found *********** [*]")
+					print (Fore.GREEN +"[*] *********** Firebase Full Access Found *********** [*]")
 					#print (result)
 				else:
 					print (Fore.RED +"[*] Firebase URL does not exist  [*] ")
